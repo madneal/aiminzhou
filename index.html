@@ -7,14 +7,57 @@
 	<title>Aimin Zhou</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<style type="text/css">
-		.ecnu-
+		header{
+			background: #eee;
+		}
+		.ecnu-logo{
+			margin: 2rem;
+		}
+		.nav {
+			background: #eee;
+		}
+		.nav a {
+			color: #000;
+			margin-right: 2rem;
+			font-size: large;
+		}
 	</style>
 </head>
 <body>
-<head>
-	<div> </div>
-	<img src="img/logo.gif" class="ecnu-logo">
-</head>
-	
+<header>
+	<div class="row">
+		<div class="col-md-6 col-xs-6">
+			<img src="img/logo.gif" class="ecnu-logo img-responsive">
+		</div>
+		<div class="col-md-6 col-xs-6">
+		<h2>East China Normal University</h2>
+		<h3>School of Computer Science and Software Engineering</h3>
+		</div>
+	</div>	
+</header>
+<ul class="nav nav-pills">
+	<li role="presentation"><a href="#">Home</a></li>
+	<li role="presentation" class="dropdown">
+		<a href="#" class="dopdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications</a>
+		<ul class="dropdown-menu">
+			<li>123</li>
+			<li>234234</li>
+		</ul>
+	</li>
+	<li role="presentation"><a href="#">Students</a></li>
+	<li role="presentation"><a href="#">Activities</a></li>
+	<li role="presentation"><a href="#">Home</a></li>
+</ul>
+<div class="main">
+	<div class="col-md-6 col-xs-6">
+		<div class="contact-info">
+			<address></address>
+		</div>
+	</div>
+	<div class="col-md-6 col-xs-6">
+		<div class="self-photo"></div>
+	</div>
+</div>
+	<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 </body>
 </html>
