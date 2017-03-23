@@ -32,6 +32,14 @@
 		.contact-info {
 			padding-top: 11rem;
 		}
+		.back-to-top {
+		    cursor: pointer;
+		    position: fixed;
+		    bottom: 20px;
+		    right: 20px;
+		    display:none;
+		    background: #eee;
+		}
 /*		.content {
 			padding: 5rem;
 		}
@@ -56,6 +64,8 @@
 		/* 大屏幕（大桌面显示器，大于等于 1200px） */
 		@media (min-width: @screen-lg-min) { ... }
 	</style>
+
+
 </head>
 <body>
 <header>
@@ -79,8 +89,16 @@
 	<span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
 	<li role="presentation"><a href="#research">Research
 	<span class="glyphicon glyphicon-education" aria-hidden="true"></span></a></li>
-	<li role="presentation"><a href="students.html">Students<span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
-	<li role="presentation"><a href="publications.html">Publications<span class="glyphicon glyphicon-book" aria-hidden="true"></span></a></li>
+	<li role="presentation"><a href="#biography">Biography 
+	<span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+	<li role="presentation"><a href="#activities">Professional Activities 
+	<span class="glyphicon glyphicon-book" aria-hidden="true"></span></a></li>
+	<li role="presentation"><a href="#project">Research Projects 
+	<span class="glyphicon glyphicon-lock" aria-hidden="true"></span></a></li>
+	<li role="presentation"><a href="#publications">Publications 
+	<span class="glyphicon glyphicon-book" aria-hidden="true"></span></a></li>
+	<li role="presentation"><a href="#publications">Students
+	<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
 </ul>
 <div class="container">
 	<div class="row" id="home">
@@ -93,7 +111,7 @@
 			  <strong>East China Normal University</strong><br>
 			  3663 North Zhongshan Road, Shanghai, 200062<br>
 			 
-			  <span class="glyphicon glyphicon-phone" aria-hidden="true"> 021-62233560			  	
+			  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> 021-62233560			  	
 			  <br>
 			  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:amzhou@cs.ecnu.edu.cn"> amzhou@cs.ecnu.edu.cn</a> 
 			  </address>
@@ -125,7 +143,7 @@
 					<td>
 						<h3>Machine Learning</h3>
 						<div class="col-md-5">
-							<img src="img/logo.gif" class="img-responsive">
+							<img src="img/whu-logo.png" class="img-responsive">
 						</div>
 						<div class="col-md-7">
 							<p>hjgqwehjgqjhweghuiyqweuiquyiweuyiqhjwejhasdjhkahjksdhashjkdjhkasdjhkahjskuuiwequiweuiqweuiquiweuiqweui</p>
@@ -174,7 +192,7 @@
 					<p>2009-: Department of Computer Science and Technology, East China Normal University</p>
 				</div>
 				<div class="col-md-5">
-					<img src="img/ecnu-logo.png" class="img-responsive">
+					<img src="img/essex-ogo.gif" class="img-responsive" style="margin-top: 3rem;margin-bottom: 3rem;">
 				</div>
 			</td></tr>
 			<tr><td>
@@ -182,17 +200,128 @@
 					<p>2009-: Department of Computer Science and Technology, East China Normal University</p>
 				</div>
 				<div class="col-md-5">
-					<img src="img/ecnu-logo.png" class="img-responsive">
+					<img src="img/whu-logo.png" class="img-responsive">
 				</div>
 			</td></tr>
 
 		</table>
 	</div>
+	<div class="row" id="activities">
+	<h3>Professional Activities</h3>
+	<div class="col-md-6">
+		<ol>
+			<li>Associate Editor,Swarm and Evolutionary Computation</li>
+			<li>Editorial BoardMember, Complex & Intelligent Systems</li>
+			<li> Editorial BoardMember, Swarm Intelligence and Numerical Methods</li>
+		</ol>
+	</div>
+	</div>
+	<div class="row" id="Research Projects">
+	<h3>Research Projects</h3>
+		<ol>
+			<li> Model Assisted Evolutionary Multiobjective Optimization and Its Applications, Natural Science Foundation of China (NSFC), 2017-2020.</li>
+			<li>Artificial Intelligent Methods for Complex Financial Optimization Problems, Industry, 2016-2017</li>
+			<li> Recombination Operators based on Learning Techniques for Evolutionary Multiobjective Optimization, Natural Science Foundation of China (NSFC), 2013-2016.</li>
+			<li> Research and Development of Portable Raman Spectrometer, China National Instrumentation Program, 2013-2016</li>
+			<li>Information Extraction and Fast Change Detection from Multi-source Heterogeneous Dataset, National Basic Research Program of China (973 Program), 2011-2015.</li>
+			<li>Estimation of Distribution Algorithms for Multiobjective Traveling Salesman Problems, Natural Science Foundation of China (NSFC), 2011.</li>
+			<li> Parameter Estimation based on Evolutionary Algorithms for RF and Microwave Semiconductor Devices, Innovation Project of East China Normal University, 2010-2011.</li>
+		</ol>
+	</div>
+	<div class="row" id="publications">
+	<h3>Publications</h3>
+	<div class="col-md-10">
+		<p>
+		[1]J. Sun, A. Zhou, S. Keates, and S. Liao, Simultaneous Bayesian clustering and feature selection through student’s t mixtures model, IEEE Transactions on Neural Networks and Learning Systems, 2016. (accepted)
+		<br>
+		[2]H. Zhang, A. Zhou, S. Song, Q. Zhang, X. Gao, and J. Zhang, A self-organizing multiobjective evolutionary algorithm, IEEE Transactions on Evolutionary Computation, 20(5):792-806, 2016.
+		<br>
+		[3]L. Wang, Q. Zhang, A. Zhou, M. Gong, and L. Jiao, Constrained subproblems in decomposition based 
+		multiobjective evolutionary algorithm, IEEE Transactions on Evolutionary Computation, 20(3):475-480, 2016.
+		<br>
+		[4]A. Zhou, and Q. Zhang, Are all the subproblems equally important? Resource allocation in decomposition based multiobjective evolutionary algorithms, IEEE Transactions on Evolutionary Computation, 20(1):52-64, 2016.
+		<br>
+		[5]Z. Wang, Q. Zhang, A. Zhou, M. Gong, and L. Jiao, Adaptive replacement strategies for MOEA/D, IEEE Transactions on Cybernetics, 46 (2):474-486, 2016.
+		<br>
+		[6]A. Zhou, J. Sun, and Q. Zhang, An estimation of distribution algorithm with cheap and expensive local search, IEEE Transactions on Evolutionary Computation, 19 (6): 807-822, 2015.
+		<br>
+		[7]Y. Xiao, F. Fang, Q. Zhang, A. Zhou, and G. Zhang, Parameter selection for variational Pan-sharpening by using evolutionary algorithm, Remote Sensing Letters, 6(6):458-467, 2015.
+		<br>
+		[8]C. Liu, A. Zhou, C. Wu, and G. Zhang, Image segmentation framework based on multiple feature spaces, IET Image Processing, 9(4):271-279, 2015.
+		<br>
+		[9]W. Gong, A. Zhou, and Z. Cai, A multi-operator search strategy based on cheap surrogate models for evolutionary optimization, IEEE Transactions on Evolutionary Computation, 19 (5): 746-758, 2015.
+		<br>
+		[10]G. Zhang, F. Fang, A. Zhou, and F. Li, Pan-sharpening of multi-spectral images using a new variational  model, International Journal of Remote Sensing, 9(4):271-279, 2015.
+		<br>
+		[11]C. Li, A. Zhou, G. Zhang, and F. Fang, An antinoise method for hyperspectral unmixing, IEEE Geoscience and Remote Sensing Letters, 12(3):636-640, 2015.
+		<br>
+		[12]A. Zhou, Y. Jin, and Q. Zhang, A population prediction strategy for evolutionary dynamic multiobjective optimization, IEEE Transactions on Cybernetics, 44(1):40-53,2014.
+		<br>
+		[13]A. Zhou, Q. Zhang, and G. Zhang, A multiobjective evolutionary algorithm based on mixture Gaussian models, Journal of Software, 5:913-928, 2014. (in Chinese)
+		<br>
+		[14]C. Liu, A. Zhou, Q. Zhang, and G. Zhang, Adaptive image segmentation by using mean-shift and evolutionary optimization, IET Image Processing, 8(6):327-333, 2014.
+		<br>
+		[15]C. Li, F. Fang, A. Zhou, and G. Zhang, A novel blind spectral unmixing method based on error analysis of linear mixture model, IEEE Geoscience and Remote Sensing Letters, 11(7):1180-1184, 2014.
+		<br>
+		[16]S. Jiang, Z. Dai, Y. Li, and A. Zhou, Data storage engine based on memory-mapped file for evolutionary algorithms, Computer Engineering and Applications, 2013. (in Chinese, accepted)
+		<br>
+		[17]A. Zhou, F. Gao, and G. Zhang, A decomposition based estimation of distribution algorithm for multiobjective traveling salesman problems, Computers and Mathematics with Applications, 66:1857–1868, 2013.
+		<br>
+		[18]C. Liu, A. Zhou, and G. Zhang, Automatic clustering method based on evolutionary optimization, IET Computer Vision, 7(4): 258–271, 2013.
+		<br>
+		[19]A. Zhou, B. Qu, H. Li, S. Zhao, P. Suganthan, and Q. Zhang, Multiobjective evolutionary algorithms: A survey of the state of the art, Swarm and Evolutionary Computation, 1(1): 32–49, 2011.
+		<br>
+		[20]A. Zhou, Q. Zhang and Y. Jin, Approximating the set of Pareto optimal solutions in both the decision and objective spaces by an estimation of distribution algorithm,IEEE Transactions on Evolutionary Computation,13(5):1167-1189,2009.
+		<br>
+		[21]Q. Zhang, A. Zhou, and Y. Jin, RM-MEDA: A regularity model based multiobjective estimation of distribution algorithm, IEEE Transactions on Evolutionary Computation,12(1):41-63, 2008.
+		<br>
+		[22]A. Zhou, H. Cao, L. Kang, and Y. Huang, The automatic modelling of complex functions based on genetic programming, Journalof System Simulation, 15(6):797–799, 2003.
+		<br>
+		[23]A. Zhou, L. Kang, Y. Chen, and Y. Huang, A new definition and calculation model for evolutionary multi-objective optimization, Journal of Wuhan University, 8(1B):189–194, 2003.
+		</p>
+	</div>
+	</div>
+	<div class="row" id="students">
+		<h3>Supervised Students</h3>
+		<h4>Ph.D. Students</h4>
+		<p>Yi Chen (2015-), Hanwei Zhang (2015-), Jinyuan Zhang (2013-).
+  Chunzhi Li (2011-2014), Cong Liu (2010-2013).</p>
+  		<h4>Master Students</h4>
+  		<p> Shukai Zhao (2016-), Yanfeng Liu (2016-), Hui Fang (2015-), Bin Dong (2014-).
+  Xinqi Dong (2014-2016), Chupeng Zeng (2013-2016), Yannan Bai (2013-2015), Yang Li (2012-2015), Qiuxiao Liao (2012-2014), Jing Zhang (2011-2014), Qianlan Du (2011-2014), Zhenzhen Dai (2011-2014), Peng Ji (2011-2013), Sanyi Jiang (2011-2013), Feng Gao (2010-2013), Zhenyu Huang (2010-2013), Chenyin Zhong (2009-2012).</p>
+
+	</div>
+	<div class="row footer">
+		<div class="clo-md-5 text-center">
+			East China Normal University
+		</div>
+	</div>
 </div>
-
-
+<a id="back-to-top" href="#home" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </div>
 	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		     $(window).scroll(function () {
+		            if ($(this).scrollTop() > 50) {
+		                $('#back-to-top').fadeIn();
+		            } else {
+		                $('#back-to-top').fadeOut();
+		            }
+		        });
+		        // scroll body to 0px on click
+		        $('#back-to-top').click(function () {
+		            $('#back-to-top').tooltip('hide');
+		            $('body,html').animate({
+		                scrollTop: 0
+		            }, 800);
+		            return false;
+		        });
+		        
+		        $('#back-to-top').tooltip('show');
+
+		});
+	</script>
 </body>
 </html>
