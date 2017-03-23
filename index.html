@@ -6,7 +6,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Aimin Zhou</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/inline.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/inline.css"> -->
+	<style type="text/css">
+		header{
+			background: #777;
+		}
+		.ecnu-logo{
+			margin: 2rem;
+		}
+		.nav {
+			background: #777;
+		}
+		.nav a {
+			color: #000;
+			margin-right: 2rem;
+			font-size: large;
+		}
+		.container p {
+			  word-break: break-all;
+			  word-wrap: break-word;
+		}
+		#biography .table:nth-child(odd) {
+			background: #eee;
+		}
+/*		.content {
+			padding: 5rem;
+		}
+		.content .contact-info{
+			margin: 4rem;
+			padding: 2rem;
+		}
+*//*		#home {
+			padding-top: 2rem;
+		}
+*/
+		/* 小屏幕（平板，大于等于 768px） */
+		@media (max-width: 460px) {
+			h2, h3{
+				font-size: normal;
+			}
+		}
+
+		/* 中等屏幕（桌面显示器，大于等于 992px） */
+		@media (min-width: @screen-md-min) { ... }
+
+		/* 大屏幕（大桌面显示器，大于等于 1200px） */
+		@media (min-width: @screen-lg-min) { ... }
+	</style>
 </head>
 <body>
 <header>
@@ -49,26 +95,110 @@
 	</li>
 </ul>
 <div class="container">
-	<div class="content row">
-		<div class="col-md-6 col-xs-6">
+	<div class="row" id="home">
+	<h2>Home</h2>
+		<div class="col-md-3">
 			<div class="contact-info">
 			<address>
+			  Room B807, Science Building<br>
+			  School of Computer Science and Software Engineering<br>
 			  <strong>East China Normal University</strong><br>
-			  1355 Market Street, Suite 900<br>
-			  San Francisco, CA 94103<br>
-			  
-			  <span class="glyphicon glyphicon-phone" aria-hidden="true"> (123) 456-7890			  	
+			  3663 North Zhongshan Road<br>
+			  Shanghai, 200062
+			  <span class="glyphicon glyphicon-phone" aria-hidden="true"> 021-62233560			  	
 			  <br>
-			  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:amzhou@cs.ecnu.edu.cn"> amzhou@cs.ecnu.edu.cn</a>
-			  
+			  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:amzhou@cs.ecnu.edu.cn"> amzhou@cs.ecnu.edu.cn</a> 
 			  </address>
-
-			
 			</div>
 		</div>
-		<div class="col-md-6 col-xs-6">
-			<div class="self-photo"></div>
+		<div class="col-md-3">
+			<div class="self-photo">
+				<img src="img/aiminzhou.jpg" class="img-responsive">
+			</div>
 		</div>
+	</div>
+	<div class="row" id="research">
+		<div>
+			<h2>Research</h2>
+			<table class="table">
+			<div class="tbody">
+				<tr>
+					<td>
+						<h3>Evolutionary Computation and Optimization</h3>
+						<div class="col-md-5">
+							<img src="img/logo.gif" class="img-responsive">
+						</div>
+						<div class="col-md-7">
+							<p class="text-left">hjgqwehjgqjhweghuiyqweuiquyiweuyiqhjwejhasdjhkahjksdhashjkdjhkasdjhkahjskuuiwequiweuiqweuiquiweuiqwwerwerwerkldslkjkjladskljkjlasdwoieqioqwioeqoiweioqioweowqeroipqweoiqioweioqweioqioweioqweoiqioeioqioweoijskdlfkljsdjkflkjlsdfjkioweriwioroiewrioeui</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>Machine Learning</h3>
+						<div class="col-md-5">
+							<img src="img/logo.gif" class="img-responsive">
+						</div>
+						<div class="col-md-7">
+							<p>hjgqwehjgqjhweghuiyqweuiquyiweuyiqhjwejhasdjhkahjksdhashjkdjhkasdjhkahjskuuiwequiweuiqweuiquiweuiqweui</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>Image Processing</h3>
+						<div class="col-md-5">
+							<img src="img/logo.gif" class="img-responsive">
+						</div>
+						<div class="col-md-7">
+							<p>hjgqwehjgqjhweghuiyqweuiquyiweuyiqhjwejhasdjhkahjksdhashjkdjhkasdjhkahjskuuiwequiweuiqweuiquiweuiqweui</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>Industry Applications</h3>
+						<div class="col-md-5">
+							<img src="img/logo.gif" class="img-responsive">
+						</div>
+						<div class="col-md-7">
+							<p>hjgqwehjgqjhweghuiyqweuiquyiweuyiqhjwejhasdjhkahjksdhashjkdjhkasdjhkahjskuuiwequiweuiqweuiquiweuiqweui</p>
+						</div>
+					</td>
+				</tr>
+			</div>
+			</table>
+		</div>
+	</div>
+	<div class="row" id="biography">
+		<h3>Biography</h3>
+		<table class="table table-striped">
+			<tr><td>
+				<div class="col-md-7">
+					<p>2009-: Department of Computer Science and Technology, East China Normal University</p>
+				</div>
+				<div class="col-md-5">
+					<img src="img/ecnu-logo.png" class="img-responsive">
+				</div>
+			</td></tr>
+			<tr><td>
+				<div class="col-md-7">
+					<p>2009-: Department of Computer Science and Technology, East China Normal University</p>
+				</div>
+				<div class="col-md-5">
+					<img src="img/ecnu-logo.png" class="img-responsive">
+				</div>
+			</td></tr>
+			<tr><td>
+				<div class="col-md-7">
+					<p>2009-: Department of Computer Science and Technology, East China Normal University</p>
+				</div>
+				<div class="col-md-5">
+					<img src="img/ecnu-logo.png" class="img-responsive">
+				</div>
+			</td></tr>
+
+		</table>
 	</div>
 </div>
 
