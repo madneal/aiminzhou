@@ -277,12 +277,10 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 layout: 'column',
                 items: [
                     {
-                        layout: 'column',
                         items: [
                             this._getRoundingIncomeForm(),
                         ]
                     }, {
-                        layout: 'column',
                         items: [
                             this._getRoundingCostForm()
                         ]
