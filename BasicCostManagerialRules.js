@@ -304,11 +304,15 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 id: id,
                 items: [{
                     layout: 'column',
-                    items: [
-                    {
-                        xtype: 'label',
-                        html:'<span style="font-weight:bold;">收益：</span>'
-                    },
+                    items: [{
+                    	items: [
+	                    	{
+	                    	    xtype: 'label',
+	                    	    html:'<span style="font-weight:bold;">收益：</span>'
+	                    	},
+                    	]
+                    }
+
                     this._getRoundingIncomePanel(),
                     ]
                 }]
@@ -330,11 +334,15 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 id: id,
                 items: [{
     	                layout: 'column',
-    	                items: [                        
-    		                {
-    		                    xtype: 'label',
-    		                    html: '<span style="font-weight:bold;">成本：</span>'
-    		                },
+    	                items: [
+    	                	{
+    	                		items: [
+	    	                		{
+	    	                		    xtype: 'label',
+	    	                		    html: '<span style="font-weight:bold;">成本：</span>'
+	    	                		},
+    	                		]
+    	                	}                        
     		                this._getRoundingCostPanel()
     	                ]
                 }]
