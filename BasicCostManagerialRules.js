@@ -309,12 +309,8 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
 	                    	{
 	                    	    xtype: 'label',
 	                    	    html:'<span style="font-weight:bold;">收益：</span>'
-	                    	},
-                    	]
-                    }
-
-                    this._getRoundingIncomePanel(),
-                    ]
+	                    	}]
+                    }, this._getRoundingIncomePanel()]
                 }]
             };
             this._getRoundingIncomeForm = function() {
