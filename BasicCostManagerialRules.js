@@ -305,6 +305,7 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 items: [{
                     layout: 'column',
                     items: [{
+                    	xtype: 'container',
                     	items: [
 	                    	{
 	                    	    xtype: 'label',
@@ -331,12 +332,13 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 items: [{
     	                layout: 'column',
     	                items: [
-    	                	{
+    	                	{	
+    	                		xtype: 'container',
     	                		items: [
 	    	                		{
 	    	                		    xtype: 'label',
 	    	                		    html: '<span style="font-weight:bold;">成本：</span>'
-	    	                		},
+	    	                		}
     	                		]
     	                	}                        
     		                this._getRoundingCostPanel()
