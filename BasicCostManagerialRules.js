@@ -330,20 +330,16 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
                 border: false,
                 pauseMessage: true,
                 id: id,
-                items: [
-                layout: 'column',
                 items: [{
-
-                    
-                }
-                {
-                    xtype: 'label',
-                    html: '<span style="font-weight:bold;">成本：</span>'
-                },
-                this._getRoundingCostPanel()
-                ]
-
-                ]
+    	                layout: 'column',
+    	                items: [                        
+    		                {
+    		                    xtype: 'label',
+    		                    html: '<span style="font-weight:bold;">成本：</span>'
+    		                },
+    		                this._getRoundingCostPanel()
+    	                ]
+                }]
             };
             this._getRoundingCostForm = function() {
                 return this.findById(id);
