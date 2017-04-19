@@ -340,7 +340,7 @@ com.oocl.ir4.sps.web.js.profile.office.BasicCostManagerialRules = Ext
 	    	                		    html: '<span style="font-weight:bold;">成本：</span>'
 	    	                		}
     	                		]
-    	                	}                        
+    	                	},                        
     		                this._getRoundingCostPanel()
     	                ]
                 }]
